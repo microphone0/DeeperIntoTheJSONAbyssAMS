@@ -14,6 +14,7 @@
 		B582D8D2223FD0480014273E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B582D8D1223FD0480014273E /* Assets.xcassets */; };
 		B582D8D5223FD0480014273E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B582D8D3223FD0480014273E /* LaunchScreen.storyboard */; };
 		B582D8E0223FD0480014273E /* DeeperIntoTheJSONAbyssTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D8DF223FD0480014273E /* DeeperIntoTheJSONAbyssTests.swift */; };
+		B582D8EB223FD4430014273E /* MovieDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D8EA223FD4430014273E /* MovieDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B582D8DB223FD0480014273E /* DeeperIntoTheJSONAbyssTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeperIntoTheJSONAbyssTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B582D8DF223FD0480014273E /* DeeperIntoTheJSONAbyssTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeperIntoTheJSONAbyssTests.swift; sourceTree = "<group>"; };
 		B582D8E1223FD0480014273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B582D8EA223FD4430014273E /* MovieDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				B582D8D1223FD0480014273E /* Assets.xcassets */,
 				B582D8D3223FD0480014273E /* LaunchScreen.storyboard */,
 				B582D8D6223FD0480014273E /* Info.plist */,
+				B582D8EA223FD4430014273E /* MovieDataModel.swift */,
 			);
 			path = DeeperIntoTheJSONAbyss;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			files = (
 				B582D8CD223FD0460014273E /* DetailViewController.swift in Sources */,
 				B582D8CB223FD0460014273E /* MasterViewController.swift in Sources */,
+				B582D8EB223FD4430014273E /* MovieDataModel.swift in Sources */,
 				B582D8C9223FD0460014273E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
