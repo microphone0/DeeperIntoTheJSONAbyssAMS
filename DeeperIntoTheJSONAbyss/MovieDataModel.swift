@@ -14,7 +14,7 @@ class MovieDataModel: Codable {
 
 class Franchises: Codable {
     let franchisename: String
-    let entries: Entries
+    let entries: [Entries]
 }
 
 class Entries: Codable {
@@ -26,4 +26,10 @@ class Entries: Codable {
     let studio: String?
     let description: String
     let summary: String
+    //let casting: [Cast]
 }
+
+//class Cast: Codable {
+//    let name: String
+//    let starring: String
+//}

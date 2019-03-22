@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55C6A4522451C0C00B45D7A /* MovieDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C6A4422451C0C00B45D7A /* MovieDataController.swift */; };
 		B582D8C9223FD0460014273E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D8C8223FD0460014273E /* AppDelegate.swift */; };
 		B582D8CB223FD0460014273E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D8CA223FD0460014273E /* MasterViewController.swift */; };
 		B582D8CD223FD0460014273E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D8CC223FD0460014273E /* DetailViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B55C6A4422451C0C00B45D7A /* MovieDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataController.swift; sourceTree = "<group>"; };
 		B582D8C5223FD0460014273E /* DeeperIntoTheJSONAbyss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeeperIntoTheJSONAbyss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B582D8C8223FD0460014273E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B582D8CA223FD0460014273E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				B582D8D3223FD0480014273E /* LaunchScreen.storyboard */,
 				B582D8D6223FD0480014273E /* Info.plist */,
 				B582D8EA223FD4430014273E /* MovieDataModel.swift */,
+				B55C6A4422451C0C00B45D7A /* MovieDataController.swift */,
 			);
 			path = DeeperIntoTheJSONAbyss;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				B582D8CD223FD0460014273E /* DetailViewController.swift in Sources */,
 				B582D8CB223FD0460014273E /* MasterViewController.swift in Sources */,
 				B582D8EB223FD4430014273E /* MovieDataModel.swift in Sources */,
+				B55C6A4522451C0C00B45D7A /* MovieDataController.swift in Sources */,
 				B582D8C9223FD0460014273E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
