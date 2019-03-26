@@ -33,9 +33,10 @@ class MasterViewController: UITableViewController {
         let titleImageView = UIImageView(image: titleImage)
         navigationItem.titleView = titleImageView
         
-        dataController.getRebootData(completion:
-            { dataModel in
-                })
+        dataController.getRebootData(completion:{
+            dataModel in
+            self.rebootDataModel = dataModel
+        })
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -48,9 +49,12 @@ class MasterViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
-                let selectedObject =
-                    rebootDataModel
+                let object =
+                    rebootDataModel!.franchise[indexPath.section].entries[indexPath.row]
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
+                controller.detailItem = object
+                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                controller.navigationItem.leftItemsSupplementBackButton = true
             }
         }
     }
@@ -80,15 +84,5 @@ class MasterViewController: UITableViewController {
 
         return cell
     }
-
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-        }
-    }
-
-
 }
 
