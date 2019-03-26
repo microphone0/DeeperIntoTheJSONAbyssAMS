@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,19 +15,24 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IRDBlogo" translatesAutoresizingMaskIntoConstraints="NO" id="EWx-Bo-tuI">
-                                <rect key="frame" x="123" y="296" width="128" height="74"/>
+                                <rect key="frame" x="124" y="411" width="167" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="Kje-L6-vl0"/>
+                                    <constraint firstAttribute="width" constant="167" id="tKR-zB-HJe"/>
+                                    <constraint firstAttribute="width" secondItem="EWx-Bo-tuI" secondAttribute="height" multiplier="167:74" id="uUb-9Y-gBv"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.76862745098039209" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EWx-Bo-tuI" secondAttribute="bottom" constant="297" id="4Uw-s1-hEf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EWx-Bo-tuI" secondAttribute="trailing" constant="124" id="50M-Aj-pPV"/>
-                            <constraint firstItem="EWx-Bo-tuI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="276" id="P52-wL-hr1"/>
-                            <constraint firstItem="EWx-Bo-tuI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="cT6-n8-7rT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EWx-Bo-tuI" secondAttribute="bottom" constant="377" id="LNt-tx-VyZ"/>
+                            <constraint firstItem="EWx-Bo-tuI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="367" id="dnc-66-e1h"/>
+                            <constraint firstItem="EWx-Bo-tuI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="124" id="hzd-ol-z3d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EWx-Bo-tuI" secondAttribute="trailing" constant="123" id="iZv-rj-YD1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

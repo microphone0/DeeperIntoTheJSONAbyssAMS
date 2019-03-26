@@ -84,21 +84,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="Arm-wq-HPj" style="IBUITableViewCellStyleDefault" id="WCw-Qf-5nD">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="WCw-Qf-5nD">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WCw-Qf-5nD" id="37f-cq-3Eg">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Arm-wq-HPj">
-                                            <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Jt-94-xbs">
+                                            <rect key="frame" x="309" y="9" width="50" height="24"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABv-cd-whL">
+                                            <rect key="frame" x="16" y="9" width="50" height="24"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="ABv-cd-whL" secondAttribute="bottom" constant="10.5" id="C7H-wm-gGx"/>
+                                        <constraint firstItem="2Jt-94-xbs" firstAttribute="leading" secondItem="ABv-cd-whL" secondAttribute="trailing" constant="243" id="D2x-45-Q22"/>
+                                        <constraint firstItem="2Jt-94-xbs" firstAttribute="leading" secondItem="ABv-cd-whL" secondAttribute="trailing" constant="243" id="DNr-8v-jZi"/>
+                                        <constraint firstAttribute="bottom" secondItem="2Jt-94-xbs" secondAttribute="bottom" constant="10.5" id="e8n-R9-Vox"/>
+                                        <constraint firstAttribute="trailing" secondItem="2Jt-94-xbs" secondAttribute="trailing" constant="16" id="eBb-AV-2vJ"/>
+                                        <constraint firstItem="ABv-cd-whL" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="top" constant="9" id="lTF-rv-BXG"/>
+                                        <constraint firstItem="ABv-cd-whL" firstAttribute="leading" secondItem="37f-cq-3Eg" secondAttribute="leading" constant="16" id="m3j-gw-fsp"/>
+                                        <constraint firstItem="2Jt-94-xbs" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="top" constant="9" id="tbM-2m-3Cg"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>

@@ -13,11 +13,11 @@ class MovieDataModel: Codable {
 }
 
 class Franchises: Codable {
-    let franchisename: String
-    let entries: [Entries]
+    let franchiseName: String
+    let entries: [Entry]
 }
 
-class Entries: Codable {
+class Entry: Codable {
     let name: String
     let format: String
     let yearStart: String
