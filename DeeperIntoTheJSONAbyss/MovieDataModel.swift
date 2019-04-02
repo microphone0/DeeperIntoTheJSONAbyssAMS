@@ -24,6 +24,7 @@ class Entry: Codable {
     let yearEnd: String?
     let episode: Int?
     let studio: String?
+    let imageURL: String
     let description: String
     let summary: String
     //let casting: [Cast]
